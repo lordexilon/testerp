@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/villalbamedina/dolibarr-3.9.1-1/scripts/setenv.sh
+
+exec /home/villalbamedina/dolibarr-3.9.1-1/common/bin/.xsltproc.bin  "$@"

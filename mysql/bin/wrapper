@@ -1,0 +1,12 @@
+#!/bin/sh
+LD_LIBRARY_PATH=/home/villalbamedina/dolibarr-3.9.1-1/mysql/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+case "$@" in
+  *--no-defaults*)
+    exec $0.bin "$@"
+    ;;
+  *--defaults-extra-file*)
+    exec $0.bin "$@"
+    ;;
+esac
+exec $0.bin --defaults-file=/home/villalbamedina/dolibarr-3.9.1-1/mysql/my.cnf "$@"

@@ -1,0 +1,140 @@
+============ CHANGELOG =============
+
+Version 3.9.1-1      2016-05-10
+* Updated phpMyAdmin to 4.6.1
+* Updated PHP to 5.6.21 (Security release CVE-2016-3074)
+* Updated OpenSSL to 1.0.2h (Security release CVE-2016-2108 CVE-2016-2107)
+* Updated PageSpeed to 1.9.32.14
+
+Version 3.9.1-0      2016-04-25
+* Updated Dolibarr to 3.9.1
+* Updated PHP to 5.6.20
+* Updated MySQL to 5.6.30
+* Updated Apache to 2.4.20
+* Updated phpMyAdmin to 4.6.0
+
+Version 3.9.0-0      2016-04-06
+* Updated Dolibarr to 3.9.0
+* Updated phpMyAdmin to 4.5.5.1
+* Updated PHP to 5.6.19
+* Updated OpenSSL to 1.0.2g (Security release CVE-2016-0800)
+
+Version 3.8.3-0      2016-02-19
+* Updated Dolibarr to 3.8.3
+* Updated MySQL to 5.6.29
+* Updated PHP to 5.6.18
+* Updated phpMyAdmin to 4.5.4.1
+* Updated OpenSSL to 1.0.2e
+* Updated libpng to 1.5.26 (Security release CVE-2015-8540)
+* Updated Apache to 2.4.18
+
+Version 3.8.2-1      2015-11-17
+* Updated libpng to 1.5.24 (security issue)
+
+Version 3.8.2-0      2015-11-10
+* Updated Dolibarr to 3.8.2
+* Updated MySQL to 5.6.27
+
+Version 3.8.1-0      2015-10-21
+* Updated Dolibarr to 3.8.1
+* Updated Apache to 2.4.17
+
+Version 3.8.0-0      2015-10-02
+* Updated PHP to 5.5.29
+* Updated Dolibarr to 3.8.0
+* Updated phpMyAdmin to 4.4.13.1
+* Updated Apache to 2.4.16
+* Updated OpenSSL to 1.0.1p
+* Updated MySQL to 5.6.25
+* Dropping RC4 from Apache SSLCipherSuite directive
+
+Version 3.7.0-0      2015-04-22
+* Updated Dolibarr to 3.7.0
+* Updated phpMyAdmin to 4.4.3
+* Updated PHP to 5.4.40
+* Updated OpenSSL to 1.0.1m
+* Updated Apache to 2.4.12
+* Updated MySQL to 5.5.42 for Linux and Windows
+* Updated PageSpeed to 1.9.32.3
+
+Version 3.6.2-0      2014-12-31
+* Updated Dolibarr to 3.6.2
+* Updated phpMyAdmin to 4.3.3
+* Updated PHP to 5.4.36
+
+Version 3.6.1-0      2014-10-22
+* (Version only available for OS X)
+* Fix MySQL startup issue for OS X Yosemite
+* Updated PHP to 5.4.34
+* Updated OpenSSL to 1.0.1j
+
+Version 3.6.1-0      2014-10-13
+* Updated Dolibarr to 3.6.1
+* Added OCI8 module. It requires InstantClient 11.2.
+* Updated phpMyAdmin to 4.2.9.1
+* Updated MySQL to 5.5.40
+* Updated PHP to 5.4.33
+* Added banner with credentials info (VMs and Cloud Images)
+* Updated OpenSSL to 1.0.1i
+
+Version 3.6.0-0      2014-08-20
+* Updated Apache to 2.4.10
+* Updated PHP to 5.4.31
+
+Version 3.5.4-0      2014-07-17
+* Updated MySQL to 5.5.38
+* Updated XDebug to 2.2.5
+* Updated XCache to 3.1.0
+* Updated mongo-php-driver to 1.5.4
+* Updated php-couchbase to 1.1.5
+* Updated Libxslt to 1.1.28
+* Updated Libxml2 to 2.9.1
+* Updated PHP to 5.4.30
+* Updated phpMyAdmin to 4.2.5
+* Updated OpenSSL to 1.0.1h
+* Updated PHP to 5.4.29
+
+Version 3.5.3-0      2014-06-02
+* Updated Dolibarr to 3.5.3
+* Updated phpMyAdmin to 4.2.2
+* Added libv8 and v8js PHP extension for Linux and OS X
+
+Version 3.5.2-0      2014-04-15
+* Updated Dolibarr to 3.5.2
+
+Version 3.5.0-1      2014-04-08
+* Updated OpenSSL to 1.0.1g
+* Updated phpMyAdmin to 4.1.12
+* Improved Apache configuration for PHP-FPM mode
+* Updated Apache to 2.4.9
+* Updated PHP to 5.4.26
+* Updated MySQL to 5.5.36
+
+Version 3.5.0-0      2014-02-03
+* Updated Dolibarr to 3.5.0
+* Updated phpMyAdmin to 4.1.4
+* Updated PHP to 5.4.24
+* Updated OpenSSL to 1.0.1f in Linux and OSX
+
+Version 3.4.2-0      2014-01-07
+* Updated Dolibarr to 3.4.2
+* Updated phpMyAdmin to 4.1.0
+* Updated PHP to 5.4.23
+
+Version 3.4.1-0      2013-10-15
+* Updated Dolibarr to 3.4.1
+
+Version 3.4.0-1      2013-10-08
+* Added PHP-FPM support for cloud images and VMs
+* Updated PHP to 5.4.20
+
+Version 3.4.0-0      2013-08-28
+* Updated Dolibarr to 3.4.0
+
+Version 3.3.3-1      2013-08-27
+* Updated PHP to 5.4.19
+* Improved mod_pagespeed settings for better performance (Unix)
+
+Version 3.3.3-0      2013-07-26
+* Initial release, bundles Apache 2.4.4, PHP 5.4.17, MySQL 5.5.32 and
+Dolibarr 3.3.3

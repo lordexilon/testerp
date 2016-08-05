@@ -1,0 +1,332 @@
+html, body.demo {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	overflow: hidden;
+}
+
+a {
+	color: #444;
+	text-decoration: none;
+}
+
+a:active {
+	position: relative;
+	top: 1px;
+}
+
+img {
+	border: none;
+}
+
+p, ul {
+	margin: 0;
+	padding: 0;
+	border:0;
+	list-style:none;
+}
+
+.demo-table {
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	table-layout: static;
+}
+
+.demo-table tr,
+.demo-table td {
+	margin: 0;
+	padding: 0;
+}
+
+td.demo-header {
+	position: relative;
+	padding: 10px 10px 10px 20px;
+	background: #2b2b2f;
+	-moz-box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+}
+
+#browse {
+	margin-top: 4px !important;
+} 
+
+.resize {
+	margin-left: 40px;
+}
+
+.resize a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	color: #666;
+}
+
+.resize a:first-child {
+	margin-right: 8px;
+}
+
+.resize a span {
+	display: block;
+	height: 100%;
+	line-height: 42px;
+	vertical-align: bottom;
+}
+
+.resize a span.active {
+	color: #fff;
+}
+
+.demo-content {
+	height: 100%;
+	overflow: hidden;
+	vertical-align: top;
+	background: #fff url(_i/bg-loading.gif) no-repeat center;
+}
+
+#demo-iframe-wrap {
+	position: relative;
+	z-index: 50;
+	height: 100%;
+	background: transparent;
+	overflow: visible;
+	-webkit-transition: .1s ease-in;  
+	-moz-transition: .1s ease-in;  
+	-o-transition: .1s ease-in;  
+	transition: .1s ease-in; 
+}
+
+.demo-width-mobile {
+	width: 320px;
+	height: 568px !important;
+	margin: 60px auto 0;
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.demo-width-tablet {
+	width: 768px;
+	height: 1024px !important;
+	margin: 40px auto;
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.demo-iframe {
+	width: 100%;
+	height: 100%;
+	margin-bottom: -1px;
+	border-width: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.info {
+	margin: 3px 5px 0 0;
+}
+
+.close {
+	margin: 0 0 0 10px;
+}
+
+.close a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.close a span {
+	display: block;
+	height: 100%;
+	line-height: 40px;
+}
+
+.button {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 30px;
+	color: #fff !important;
+	background: #42a97a;
+	border: none;
+	text-transform: uppercase;
+	text-decoration: none !important;
+	text-shadow: none;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.button.purchase {
+	background: #42a97a;
+}
+
+.button.purchase:hover {
+	background: rgb(61, 155, 112);
+}
+
+/*  ##################################
+    SUPERFISH CSS
+    ################################## */
+
+/** ESSENTIAL STYLES */
+
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+
+.sf-menu {
+	line-height:	1.0;
+}
+
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			200px; /* left offset of submenus need to match (see below) */
+}
+
+.sf-menu ul li {
+	width:			100%;
+}
+
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+
+.sf-menu li {
+	display: 		inline;
+	position:		relative;
+	width: 			auto;
+}
+
+.sf-menu a {
+	display:		inline-block;
+	position:		relative;
+}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0px;
+	top:			0px; /* match top ul list item height */
+	z-index:		99;
+}
+
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+
+/** STYLES */
+
+.ts-menu .sf-menu ul {
+	width: 200px;
+	height: auto;
+	max-height: 350px;
+	background: #f2f2f2;	
+	-moz-box-shadow: 0px 0px 2px 0px #666;
+	-webkit-box-shadow: 0px 0px 2px 0px #666;
+	box-shadow: 0px 0px 2px 0px #666;
+	z-index: 1;
+	overflow-y: scroll;
+	cursor: pointer;
+}
+
+.ts-menu .sf-menu li li {
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	background: none;
+}
+
+.ts-menu .sf-menu li li a,
+.ts-menu .sf-menu li li a:visited {
+	display: block;
+	margin: 0px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid #e4e4e4;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer !important;
+	clear: right;
+}
+
+.ts-menu .sf-menu li li a:hover {
+	color: #308d44;
+	background: #fefefe;
+}
+
+.ts-menu .sf-menu li li a:active {
+	top: 0px;
+}
+
+.ts-menu .sf-menu li li a small {
+	float: right;
+	width: auto;
+	color: #444;
+	font-size: 9px;
+	text-transform: uppercase;
+}
+
+#browse {
+	display: block;
+	width: 180px;
+	height: 30px;
+	margin: 8px 20px 0 0;
+	padding: 0 10px;
+	line-height: 30px;
+	color: #fff;
+	background: url(_i/bg-browse.png) no-repeat left top;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	font-size: 11px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0px #000;
+}
+
+#browse:active {
+	top: 0px;
+}
+
+li.sfHover #browse {
+	background-position: left bottom;
+	-moz-border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	border-radius:5px 5px 0px 0px;
+}
+
+#screenshot {
+	position:absolute;
+	width: 360px;
+	height: 350px;
+	padding: 10px;
+	background: #404040;
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	display:none;
+	z-index: 100;
+}

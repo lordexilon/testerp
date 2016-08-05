@@ -1,0 +1,35 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/home/villalbamedina/dolibarr-3.9.1-1/common/include -fPIC -m64"; export CFLAGS
+CPPFLAGS="-I/home/villalbamedina/dolibarr-3.9.1-1/common/include"; export CPPFLAGS
+LDFLAGS="-L/home/villalbamedina/dolibarr-3.9.1-1/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/home/villalbamedina/dolibarr-3.9.1-1/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/home/villalbamedina/dolibarr-3.9.1-1/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"--with-apr=/home/villalbamedina/dolibarr-3.9.1-1/common/bin/apr-1-config" \
+"--with-apu=/home/villalbamedina/dolibarr-3.9.1-1/common/bin/apr-1-config" \
+"--with-pcre=/home/villalbamedina/dolibarr-3.9.1-1/common/bin/pcre-config" \
+"--enable-mpms-shared=all" \
+"--with-nghttp2=/home/villalbamedina/dolibarr-3.9.1-1/common/lib" \
+"--with-mpm=prefork" \
+"CC=gcc" \
+"CFLAGS=-I/home/villalbamedina/dolibarr-3.9.1-1/common/include -fPIC -m64" \
+"LDFLAGS=-L/home/villalbamedina/dolibarr-3.9.1-1/common/lib -liconv" \
+"CPPFLAGS=-I/home/villalbamedina/dolibarr-3.9.1-1/common/include" \
+"$@"

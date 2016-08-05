@@ -1,0 +1,21 @@
+--------------------------------------------------------------
+English Dolibarr ChangeLog
+--------------------------------------------------------------
+***** ChangeLog for 3.5 compared to 3.4.1 *****
+- Initial release for Dolipos BAR PRO
+- Trust-signed certificate for qzprint plugin
+- Now you can change the name of zones
+- Some bugs
+
+
+***** ChangeLog for 3.4.1 compared to 3.4 *****
+- Add browser print. Now we choice ESC/POS direct print or browser print.
+- Update jzebra to qz-print
+- Some bugs
+
+***** ChangeLog for 3.4 compared to 3.3 *****
+- Add compatibility for Dolibarr 3.4
+- Some bugs
+
+***** ChangeLog for 3.3 *****
+- Initial release

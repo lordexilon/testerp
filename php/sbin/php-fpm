@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/villalbamedina/dolibarr-3.9.1-1/scripts/setenv.sh
+
+exec /home/villalbamedina/dolibarr-3.9.1-1/php/sbin/.php-fpm.bin -y /home/villalbamedina/dolibarr-3.9.1-1/php/etc/php-fpm.conf -p /home/villalbamedina/dolibarr-3.9.1-1/php/var/ -c /home/villalbamedina/dolibarr-3.9.1-1/php/etc/php.ini "$@"

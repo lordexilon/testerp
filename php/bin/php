@@ -1,0 +1,7 @@
+#!/bin/sh
+PHPRC=/home/villalbamedina/dolibarr-3.9.1-1/php/etc
+export PHPRC
+PHP_PEAR_SYSCONF_DIR=/home/villalbamedina/dolibarr-3.9.1-1/php/etc
+export PHP_PEAR_SYSCONF_DIR
+. /home/villalbamedina/dolibarr-3.9.1-1/php/../scripts/setenv.sh
+exec /home/villalbamedina/dolibarr-3.9.1-1/php/bin/php.bin "$@"

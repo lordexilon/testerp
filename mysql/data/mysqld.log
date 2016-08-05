@@ -1,0 +1,744 @@
+160703 14:05:11 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-03 14:05:11 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-03 14:05:11 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 5871 ...
+2016-07-03 14:05:11 5871 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-03 14:05:11 5871 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-03 14:05:11 5871 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-03 14:05:11 5871 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-03 14:05:11 5871 [Note] InnoDB: Memory barrier is not used
+2016-07-03 14:05:11 5871 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-03 14:05:11 5871 [Note] InnoDB: Using Linux native AIO
+2016-07-03 14:05:11 5871 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-03 14:05:11 5871 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-03 14:05:11 5871 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-03 14:05:11 5871 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-03 14:05:12 5871 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-03 14:05:12 5871 [Note] InnoDB: Waiting for purge to start
+2016-07-03 14:05:12 5871 [Note] InnoDB: 5.6.30 started; log sequence number 1625987
+2016-07-03 14:05:12 5871 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: afa36121-4148-11e6-bc8f-bcaec5301757.
+2016-07-03 14:05:12 5871 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-03 14:05:12 5871 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-03 14:05:12 5871 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-03 14:05:12 5871 [Note] Event Scheduler: Loaded 0 events
+2016-07-03 14:05:12 5871 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+2016-07-03 21:49:00 5871 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: Normal shutdown
+
+2016-07-03 21:49:00 5871 [Note] Giving 0 client threads a chance to die gracefully
+2016-07-03 21:49:00 5871 [Note] Event Scheduler: Purging the queue. 0 events
+2016-07-03 21:49:00 5871 [Note] Shutting down slave threads
+2016-07-03 21:49:00 5871 [Note] Forcefully disconnecting 0 remaining clients
+2016-07-03 21:49:00 5871 [Note] Binlog end
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'partition'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'BLACKHOLE'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_CMP'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'INNODB_TRX'
+2016-07-03 21:49:00 5871 [Note] Shutting down plugin 'InnoDB'
+2016-07-03 21:49:00 5871 [Note] InnoDB: FTS optimize thread exiting.
+2016-07-03 21:49:00 5871 [Note] InnoDB: Starting shutdown...
+2016-07-03 21:49:02 5871 [Note] InnoDB: Shutdown completed; log sequence number 14165321
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'ARCHIVE'
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'MyISAM'
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'CSV'
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'MEMORY'
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'sha256_password'
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'mysql_old_password'
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'mysql_native_password'
+2016-07-03 21:49:02 5871 [Note] Shutting down plugin 'binlog'
+2016-07-03 21:49:02 5871 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: Shutdown complete
+
+160703 21:49:02 mysqld_safe mysqld from pid file /home/villalbamedina/dolibarr-3.9.1-1/mysql/data/mysqld.pid ended
+160705 21:29:01 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-05 21:29:01 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-05 21:29:01 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 3759 ...
+2016-07-05 21:29:02 3759 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-05 21:29:02 3759 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-05 21:29:02 3759 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-05 21:29:02 3759 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-05 21:29:02 3759 [Note] InnoDB: Memory barrier is not used
+2016-07-05 21:29:02 3759 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-05 21:29:02 3759 [Note] InnoDB: Using Linux native AIO
+2016-07-05 21:29:02 3759 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-05 21:29:02 3759 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-05 21:29:02 3759 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-05 21:29:02 3759 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-05 21:29:03 3759 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-05 21:29:03 3759 [Note] InnoDB: Waiting for purge to start
+2016-07-05 21:29:03 3759 [Note] InnoDB: 5.6.30 started; log sequence number 14165321
+2016-07-05 21:29:03 3759 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-05 21:29:03 3759 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-05 21:29:03 3759 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-05 21:29:03 3759 [Note] Event Scheduler: Loaded 0 events
+2016-07-05 21:29:03 3759 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+2016-07-06 11:16:52 3759 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: Normal shutdown
+
+2016-07-06 11:16:53 3759 [Note] Giving 0 client threads a chance to die gracefully
+2016-07-06 11:16:53 3759 [Note] Event Scheduler: Purging the queue. 0 events
+2016-07-06 11:16:53 3759 [Note] Shutting down slave threads
+2016-07-06 11:16:53 3759 [Note] Forcefully disconnecting 0 remaining clients
+2016-07-06 11:16:53 3759 [Note] Binlog end
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'partition'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'BLACKHOLE'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_CMP'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'INNODB_TRX'
+2016-07-06 11:16:53 3759 [Note] Shutting down plugin 'InnoDB'
+2016-07-06 11:16:53 3759 [Note] InnoDB: FTS optimize thread exiting.
+2016-07-06 11:16:53 3759 [Note] InnoDB: Starting shutdown...
+2016-07-06 11:16:54 3759 [Note] InnoDB: Shutdown completed; log sequence number 16346837
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'ARCHIVE'
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'MyISAM'
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'CSV'
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'MEMORY'
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'sha256_password'
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'mysql_old_password'
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'mysql_native_password'
+2016-07-06 11:16:54 3759 [Note] Shutting down plugin 'binlog'
+2016-07-06 11:16:54 3759 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: Shutdown complete
+
+160706 11:16:54 mysqld_safe mysqld from pid file /home/villalbamedina/dolibarr-3.9.1-1/mysql/data/mysqld.pid ended
+160706 11:17:00 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-06 11:17:01 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-06 11:17:01 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 19404 ...
+2016-07-06 11:17:01 19404 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-06 11:17:01 19404 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-06 11:17:01 19404 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-06 11:17:01 19404 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-06 11:17:01 19404 [Note] InnoDB: Memory barrier is not used
+2016-07-06 11:17:01 19404 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-06 11:17:01 19404 [Note] InnoDB: Using Linux native AIO
+2016-07-06 11:17:01 19404 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-06 11:17:01 19404 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-06 11:17:01 19404 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-06 11:17:01 19404 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-06 11:17:01 19404 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-06 11:17:01 19404 [Note] InnoDB: Waiting for purge to start
+2016-07-06 11:17:01 19404 [Note] InnoDB: 5.6.30 started; log sequence number 16346837
+2016-07-06 11:17:01 19404 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-06 11:17:01 19404 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-06 11:17:01 19404 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-06 11:17:01 19404 [Note] Event Scheduler: Loaded 0 events
+2016-07-06 11:17:01 19404 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+
+Status information:
+
+Current dir: /home/villalbamedina/dolibarr-3.9.1-1/mysql/data/
+Running threads: 0  Stack size: 262144
+Current locks:
+lock: 0x7efd5c16bf10:
+
+lock: 0x7efd5000b260:
+
+lock: 0x7efd5c15c8a0:
+
+lock: 0x7efd5c149dc0:
+
+lock: 0x7efd5c140140:
+
+lock: 0x7efd5c150580:
+
+lock: 0x7efd5c13d6a0:
+
+lock: 0x7efd5c117df0:
+
+lock: 0x7efd5c135040:
+
+lock: 0x7efd5c127750:
+
+lock: 0x7efd5c125560:
+
+lock: 0x7efd5c120cf0:
+
+lock: 0x7efd5c110810:
+
+lock: 0x7efd5c106950:
+
+lock: 0x7efd5c104690:
+
+lock: 0x7efd5c0fb7b0:
+
+lock: 0x7efd5c0eb1f0:
+
+lock: 0x7efd5c0db970:
+
+lock: 0x7efd5c0c3ae0:
+
+lock: 0x7efd5c0c0180:
+
+lock: 0x7efd5c0b7800:
+
+lock: 0x7efd5c0a4c00:
+
+lock: 0x7efd5c097cb0:
+
+lock: 0x7efd5c074890:
+
+lock: 0x7efd5c06c5f0:
+
+lock: 0x7efd5c04d690:
+
+lock: 0x7efd5c06ae60:
+
+lock: 0x7efd5c04f3a0:
+
+lock: 0x7efd5c04a800:
+
+lock: 0x7efd5c043320:
+
+lock: 0x7efd5c062ca0:
+
+lock: 0x7efd5c064d30:
+
+lock: 0x7efd5c055dd0:
+
+lock: 0x7efd5c02d0f0:
+
+lock: 0x7efd5c022a70:
+
+lock: 0x7efd5c008da0:
+
+lock: 0x2565b90:
+
+lock: 0x2492600:
+
+lock: 0x2484b10:
+
+lock: 0x2462b50:
+
+lock: 0x2479c30:
+
+lock: 0x245ab00:
+
+lock: 0x2453b30:
+
+lock: 0x244c740:
+
+lock: 0x139f960:
+
+lock: 0x139f880:
+
+lock: 0x139e8c0:
+
+lock: 0x139e7e0:
+
+lock: 0x139e700:
+
+lock: 0x139ea80:
+
+lock: 0x139ccc0:
+
+lock: 0x139f7a0:
+
+lock: 0x139d3c0:
+
+lock: 0x139d660:
+
+lock: 0x139d2e0:
+
+lock: 0x139d580:
+
+lock: 0x139d200:
+
+lock: 0x139d4a0:
+
+lock: 0x139dba0:
+
+lock: 0x139dac0:
+
+lock: 0x139d9e0:
+
+lock: 0x139d120:
+
+lock: 0x139ce80:
+
+lock: 0x139d040:
+
+lock: 0x139cda0:
+
+lock: 0x139cf60:
+
+lock: 0x139d900:
+
+lock: 0x139d820:
+
+lock: 0x139d740:
+
+lock: 0x139f420:
+
+lock: 0x139f6c0:
+
+lock: 0x139f5e0:
+
+lock: 0x139f500:
+
+lock: 0x139f0a0:
+
+lock: 0x139efc0:
+
+lock: 0x139eee0:
+
+lock: 0x139ee00:
+
+lock: 0x139ed20:
+
+lock: 0x139f260:
+
+lock: 0x139ec40:
+
+lock: 0x139eb60:
+
+lock: 0x139f180:
+
+lock: 0x139e9a0:
+
+lock: 0x139e540:
+
+lock: 0x139e620:
+
+lock: 0x139e460:
+
+lock: 0x139e380:
+
+lock: 0x139e000:
+
+lock: 0x139e2a0:
+
+lock: 0x139e1c0:
+
+lock: 0x139df20:
+
+lock: 0x139e0e0:
+
+lock: 0x139de40:
+
+lock: 0x139dd60:
+
+lock: 0x139dc80:
+
+lock: 0x139f340:
+
+
+Key caches:
+default
+Buffer_size:       8388608
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:         2186
+read_next:        1006
+read_rnd          1414
+read_first:        181
+write:              26
+delete               0
+update:              1
+
+Table status:
+Opened tables:        103
+Open tables:           96
+Open files:            16
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : INITIALIZED
+Thread id  : 0
+LLA        : n/a:0
+LUA        : n/a:0
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : init_queue:139
+LUA             : init_queue:149
+WOC             : NO
+Next activation : never
+2016-07-09 22:58:24 19404 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: Normal shutdown
+
+2016-07-09 22:58:24 19404 [Note] Giving 0 client threads a chance to die gracefully
+2016-07-09 22:58:24 19404 [Note] Event Scheduler: Purging the queue. 0 events
+2016-07-09 22:58:24 19404 [Note] Shutting down slave threads
+2016-07-09 22:58:24 19404 [Note] Forcefully disconnecting 0 remaining clients
+2016-07-09 22:58:24 19404 [Note] Binlog end
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'partition'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'BLACKHOLE'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_CMP'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'INNODB_TRX'
+2016-07-09 22:58:24 19404 [Note] Shutting down plugin 'InnoDB'
+2016-07-09 22:58:25 19404 [Note] InnoDB: FTS optimize thread exiting.
+2016-07-09 22:58:32 19404 [Note] InnoDB: Starting shutdown...
+2016-07-09 22:58:37 19404 [Note] InnoDB: Shutdown completed; log sequence number 16346847
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'ARCHIVE'
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'MyISAM'
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'CSV'
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'MEMORY'
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'sha256_password'
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'mysql_old_password'
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'mysql_native_password'
+2016-07-09 22:58:37 19404 [Note] Shutting down plugin 'binlog'
+2016-07-09 22:58:38 19404 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: Shutdown complete
+
+160709 22:58:38 mysqld_safe mysqld from pid file /home/villalbamedina/dolibarr-3.9.1-1/mysql/data/mysqld.pid ended
+160720 22:08:10 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-20 22:08:11 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-20 22:08:11 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 4076 ...
+2016-07-20 22:08:11 4076 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-20 22:08:11 4076 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-20 22:08:11 4076 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-20 22:08:11 4076 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-20 22:08:11 4076 [Note] InnoDB: Memory barrier is not used
+2016-07-20 22:08:11 4076 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-20 22:08:11 4076 [Note] InnoDB: Using Linux native AIO
+2016-07-20 22:08:11 4076 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-20 22:08:11 4076 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-20 22:08:11 4076 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-20 22:08:11 4076 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-20 22:08:12 4076 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-20 22:08:12 4076 [Note] InnoDB: Waiting for purge to start
+2016-07-20 22:08:12 4076 [Note] InnoDB: 5.6.30 started; log sequence number 16346847
+2016-07-20 22:08:12 4076 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-20 22:08:12 4076 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-20 22:08:12 4076 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-20 22:08:12 4076 [Note] Event Scheduler: Loaded 0 events
+2016-07-20 22:08:12 4076 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+160722 08:51:17 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-22 08:51:18 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-22 08:51:18 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 2411 ...
+2016-07-22 08:51:19 2411 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-22 08:51:19 2411 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-22 08:51:19 2411 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-22 08:51:19 2411 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-22 08:51:19 2411 [Note] InnoDB: Memory barrier is not used
+2016-07-22 08:51:19 2411 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-22 08:51:19 2411 [Note] InnoDB: Using Linux native AIO
+2016-07-22 08:51:19 2411 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-22 08:51:19 2411 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-22 08:51:19 2411 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-22 08:51:19 2411 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-22 08:51:19 2411 [Note] InnoDB: The log sequence numbers 16346847 and 16346847 in ibdata files do not match the log sequence number 17182903 in the ib_logfiles!
+2016-07-22 08:51:19 2411 [Note] InnoDB: Database was not shutdown normally!
+2016-07-22 08:51:19 2411 [Note] InnoDB: Starting crash recovery.
+2016-07-22 08:51:19 2411 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-07-22 08:51:21 2411 [Note] InnoDB: Restoring possible half-written data pages 
+2016-07-22 08:51:21 2411 [Note] InnoDB: from the doublewrite buffer...
+2016-07-22 08:51:22 2411 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-22 08:51:22 2411 [Note] InnoDB: Waiting for purge to start
+2016-07-22 08:51:22 2411 [Note] InnoDB: 5.6.30 started; log sequence number 17182903
+2016-07-22 08:51:22 2411 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-22 08:51:22 2411 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-22 08:51:22 2411 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-22 08:51:23 2411 [Note] Event Scheduler: Loaded 0 events
+2016-07-22 08:51:23 2411 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+160725 10:13:41 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-25 10:13:42 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-25 10:13:42 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 12351 ...
+2016-07-25 10:13:43 12351 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-25 10:13:43 12351 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-25 10:13:43 12351 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-25 10:13:43 12351 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-25 10:13:43 12351 [Note] InnoDB: Memory barrier is not used
+2016-07-25 10:13:43 12351 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-25 10:13:43 12351 [Note] InnoDB: Using Linux native AIO
+2016-07-25 10:13:43 12351 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-25 10:13:43 12351 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-25 10:13:43 12351 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-25 10:13:43 12351 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-25 10:13:43 12351 [Note] InnoDB: The log sequence numbers 16346847 and 16346847 in ibdata files do not match the log sequence number 17188741 in the ib_logfiles!
+2016-07-25 10:13:43 12351 [Note] InnoDB: Database was not shutdown normally!
+2016-07-25 10:13:43 12351 [Note] InnoDB: Starting crash recovery.
+2016-07-25 10:13:43 12351 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-07-25 10:13:45 12351 [Note] InnoDB: Restoring possible half-written data pages 
+2016-07-25 10:13:45 12351 [Note] InnoDB: from the doublewrite buffer...
+2016-07-25 10:13:46 12351 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-25 10:13:46 12351 [Note] InnoDB: Waiting for purge to start
+2016-07-25 10:13:46 12351 [Note] InnoDB: 5.6.30 started; log sequence number 17188741
+2016-07-25 10:13:46 12351 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-25 10:13:46 12351 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-25 10:13:46 12351 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-25 10:13:47 12351 [Note] Event Scheduler: Loaded 0 events
+2016-07-25 10:13:47 12351 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+160725 23:42:26 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-25 23:42:26 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-25 23:42:27 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 8422 ...
+2016-07-25 23:42:27 8422 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-25 23:42:27 8422 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-25 23:42:27 8422 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-25 23:42:27 8422 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-25 23:42:27 8422 [Note] InnoDB: Memory barrier is not used
+2016-07-25 23:42:27 8422 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-25 23:42:27 8422 [Note] InnoDB: Using Linux native AIO
+2016-07-25 23:42:27 8422 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-25 23:42:27 8422 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-25 23:42:27 8422 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-25 23:42:27 8422 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-25 23:42:27 8422 [Note] InnoDB: The log sequence numbers 16346847 and 16346847 in ibdata files do not match the log sequence number 17365106 in the ib_logfiles!
+2016-07-25 23:42:27 8422 [Note] InnoDB: Database was not shutdown normally!
+2016-07-25 23:42:27 8422 [Note] InnoDB: Starting crash recovery.
+2016-07-25 23:42:27 8422 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-07-25 23:42:29 8422 [Note] InnoDB: Restoring possible half-written data pages 
+2016-07-25 23:42:29 8422 [Note] InnoDB: from the doublewrite buffer...
+2016-07-25 23:42:30 8422 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-25 23:42:30 8422 [Note] InnoDB: Waiting for purge to start
+2016-07-25 23:42:30 8422 [Note] InnoDB: 5.6.30 started; log sequence number 17365106
+2016-07-25 23:42:30 8422 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-25 23:42:30 8422 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-25 23:42:30 8422 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-25 23:42:31 8422 [Note] Event Scheduler: Loaded 0 events
+2016-07-25 23:42:31 8422 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+160726 07:23:24 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-26 07:23:25 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-26 07:23:25 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 3257 ...
+2016-07-26 07:23:25 3257 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-26 07:23:25 3257 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-26 07:23:25 3257 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-26 07:23:25 3257 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-26 07:23:25 3257 [Note] InnoDB: Memory barrier is not used
+2016-07-26 07:23:25 3257 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-26 07:23:25 3257 [Note] InnoDB: Using Linux native AIO
+2016-07-26 07:23:25 3257 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-26 07:23:25 3257 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-26 07:23:25 3257 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-26 07:23:25 3257 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-26 07:23:25 3257 [Note] InnoDB: The log sequence numbers 16346847 and 16346847 in ibdata files do not match the log sequence number 17918009 in the ib_logfiles!
+2016-07-26 07:23:25 3257 [Note] InnoDB: Database was not shutdown normally!
+2016-07-26 07:23:25 3257 [Note] InnoDB: Starting crash recovery.
+2016-07-26 07:23:25 3257 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-07-26 07:23:27 3257 [Note] InnoDB: Restoring possible half-written data pages 
+2016-07-26 07:23:27 3257 [Note] InnoDB: from the doublewrite buffer...
+2016-07-26 07:23:29 3257 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-26 07:23:29 3257 [Note] InnoDB: Waiting for purge to start
+2016-07-26 07:23:29 3257 [Note] InnoDB: 5.6.30 started; log sequence number 17918009
+2016-07-26 07:23:29 3257 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-26 07:23:29 3257 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-26 07:23:29 3257 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-26 07:23:30 3257 [Note] Event Scheduler: Loaded 0 events
+2016-07-26 07:23:30 3257 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+160726 18:34:12 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-07-26 18:34:13 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-26 18:34:13 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 5089 ...
+2016-07-26 18:34:13 5089 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-26 18:34:13 5089 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-07-26 18:34:13 5089 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-07-26 18:34:13 5089 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-26 18:34:13 5089 [Note] InnoDB: Memory barrier is not used
+2016-07-26 18:34:13 5089 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-26 18:34:13 5089 [Note] InnoDB: Using Linux native AIO
+2016-07-26 18:34:13 5089 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-26 18:34:13 5089 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-07-26 18:34:13 5089 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-26 18:34:13 5089 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-26 18:34:13 5089 [Note] InnoDB: The log sequence numbers 16346847 and 16346847 in ibdata files do not match the log sequence number 17972558 in the ib_logfiles!
+2016-07-26 18:34:13 5089 [Note] InnoDB: Database was not shutdown normally!
+2016-07-26 18:34:13 5089 [Note] InnoDB: Starting crash recovery.
+2016-07-26 18:34:13 5089 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-07-26 18:34:15 5089 [Note] InnoDB: Restoring possible half-written data pages 
+2016-07-26 18:34:15 5089 [Note] InnoDB: from the doublewrite buffer...
+2016-07-26 18:34:17 5089 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-07-26 18:34:17 5089 [Note] InnoDB: Waiting for purge to start
+2016-07-26 18:34:17 5089 [Note] InnoDB: 5.6.30 started; log sequence number 17972558
+2016-07-26 18:34:17 5089 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-07-26 18:34:17 5089 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-26 18:34:17 5089 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-26 18:34:18 5089 [Note] Event Scheduler: Loaded 0 events
+2016-07-26 18:34:18 5089 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+160803 21:26:03 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-08-03 21:26:03 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-08-03 21:26:03 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 16863 ...
+2016-08-03 21:26:04 16863 [Note] Plugin 'FEDERATED' is disabled.
+2016-08-03 21:26:04 16863 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-08-03 21:26:04 16863 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-08-03 21:26:04 16863 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-08-03 21:26:04 16863 [Note] InnoDB: Memory barrier is not used
+2016-08-03 21:26:04 16863 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-08-03 21:26:04 16863 [Note] InnoDB: Using Linux native AIO
+2016-08-03 21:26:04 16863 [Note] InnoDB: Using CPU crc32 instructions
+2016-08-03 21:26:04 16863 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-08-03 21:26:04 16863 [Note] InnoDB: Completed initialization of buffer pool
+2016-08-03 21:26:04 16863 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-08-03 21:26:04 16863 [Note] InnoDB: The log sequence numbers 16346847 and 16346847 in ibdata files do not match the log sequence number 17972568 in the ib_logfiles!
+2016-08-03 21:26:04 16863 [Note] InnoDB: Database was not shutdown normally!
+2016-08-03 21:26:04 16863 [Note] InnoDB: Starting crash recovery.
+2016-08-03 21:26:04 16863 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-08-03 21:26:06 16863 [Note] InnoDB: Restoring possible half-written data pages 
+2016-08-03 21:26:06 16863 [Note] InnoDB: from the doublewrite buffer...
+2016-08-03 21:26:08 16863 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-08-03 21:26:08 16863 [Note] InnoDB: Waiting for purge to start
+2016-08-03 21:26:08 16863 [Note] InnoDB: 5.6.30 started; log sequence number 17972568
+2016-08-03 21:26:08 16863 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-08-03 21:26:08 16863 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-08-03 21:26:08 16863 [Note] Server socket created on IP: '127.0.0.1'.
+2016-08-03 21:26:09 16863 [Note] Event Scheduler: Loaded 0 events
+2016-08-03 21:26:09 16863 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+160804 07:01:40 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-08-04 07:01:40 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-08-04 07:01:41 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 4765 ...
+2016-08-04 07:01:41 4765 [Note] Plugin 'FEDERATED' is disabled.
+2016-08-04 07:01:41 4765 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-08-04 07:01:41 4765 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-08-04 07:01:41 4765 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-08-04 07:01:41 4765 [Note] InnoDB: Memory barrier is not used
+2016-08-04 07:01:41 4765 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-08-04 07:01:41 4765 [Note] InnoDB: Using Linux native AIO
+2016-08-04 07:01:41 4765 [Note] InnoDB: Using CPU crc32 instructions
+2016-08-04 07:01:41 4765 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-08-04 07:01:41 4765 [Note] InnoDB: Completed initialization of buffer pool
+2016-08-04 07:01:41 4765 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-08-04 07:01:41 4765 [Note] InnoDB: The log sequence numbers 16346847 and 16346847 in ibdata files do not match the log sequence number 17978476 in the ib_logfiles!
+2016-08-04 07:01:41 4765 [Note] InnoDB: Database was not shutdown normally!
+2016-08-04 07:01:41 4765 [Note] InnoDB: Starting crash recovery.
+2016-08-04 07:01:41 4765 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-08-04 07:01:43 4765 [Note] InnoDB: Restoring possible half-written data pages 
+2016-08-04 07:01:43 4765 [Note] InnoDB: from the doublewrite buffer...
+2016-08-04 07:01:44 4765 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-08-04 07:01:44 4765 [Note] InnoDB: Waiting for purge to start
+2016-08-04 07:01:44 4765 [Note] InnoDB: 5.6.30 started; log sequence number 17978476
+2016-08-04 07:01:44 4765 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-08-04 07:01:44 4765 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-08-04 07:01:44 4765 [Note] Server socket created on IP: '127.0.0.1'.
+2016-08-04 07:01:45 4765 [Note] Event Scheduler: Loaded 0 events
+2016-08-04 07:01:45 4765 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)
+160804 09:14:10 mysqld_safe Starting mysqld.bin daemon with databases from /home/villalbamedina/dolibarr-3.9.1-1/mysql/data
+2016-08-04 09:14:11 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-08-04 09:14:11 0 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin (mysqld 5.6.30) starting as process 7138 ...
+2016-08-04 09:14:11 7138 [Note] Plugin 'FEDERATED' is disabled.
+2016-08-04 09:14:11 7138 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2016-08-04 09:14:11 7138 [Note] InnoDB: The InnoDB memory heap is disabled
+2016-08-04 09:14:11 7138 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-08-04 09:14:11 7138 [Note] InnoDB: Memory barrier is not used
+2016-08-04 09:14:11 7138 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-08-04 09:14:11 7138 [Note] InnoDB: Using Linux native AIO
+2016-08-04 09:14:11 7138 [Note] InnoDB: Using CPU crc32 instructions
+2016-08-04 09:14:11 7138 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2016-08-04 09:14:11 7138 [Note] InnoDB: Completed initialization of buffer pool
+2016-08-04 09:14:11 7138 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-08-04 09:14:11 7138 [Note] InnoDB: The log sequence numbers 16346847 and 16346847 in ibdata files do not match the log sequence number 17978486 in the ib_logfiles!
+2016-08-04 09:14:11 7138 [Note] InnoDB: Database was not shutdown normally!
+2016-08-04 09:14:11 7138 [Note] InnoDB: Starting crash recovery.
+2016-08-04 09:14:11 7138 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2016-08-04 09:14:13 7138 [Note] InnoDB: Restoring possible half-written data pages 
+2016-08-04 09:14:13 7138 [Note] InnoDB: from the doublewrite buffer...
+2016-08-04 09:14:15 7138 [Note] InnoDB: 128 rollback segment(s) are active.
+2016-08-04 09:14:15 7138 [Note] InnoDB: Waiting for purge to start
+2016-08-04 09:14:15 7138 [Note] InnoDB: 5.6.30 started; log sequence number 17978486
+2016-08-04 09:14:15 7138 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+2016-08-04 09:14:15 7138 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-08-04 09:14:15 7138 [Note] Server socket created on IP: '127.0.0.1'.
+2016-08-04 09:14:16 7138 [Note] Event Scheduler: Loaded 0 events
+2016-08-04 09:14:16 7138 [Note] /home/villalbamedina/dolibarr-3.9.1-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.6.30'  socket: '/home/villalbamedina/dolibarr-3.9.1-1/mysql/tmp/mysql.sock'  port: 3308  MySQL Community Server (GPL)

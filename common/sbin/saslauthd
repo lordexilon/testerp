@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /home/villalbamedina/dolibarr-3.9.1-1/scripts/setenv.sh
+SASL_PATH="/home/villalbamedina/dolibarr-3.9.1-1/common/lib/sasl2"
+                export SASL_PATH
+exec /home/villalbamedina/dolibarr-3.9.1-1/common/sbin/.saslauthd.bin -f "/home/villalbamedina/dolibarr-3.9.1-1/common/etc/sasldb2" "$@"

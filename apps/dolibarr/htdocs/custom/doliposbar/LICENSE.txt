@@ -1,0 +1,6 @@
+Dolipos BAR license:
+Lite version is free software; you can redistribute it and/or modify
+it under the terms of the:
+GNU GPL 2 license for some files.
+MIT license for some files.
+Check file headers or contact with author.

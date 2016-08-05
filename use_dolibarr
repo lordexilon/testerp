@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PATH="/home/villalbamedina/dolibarr-3.9.1-1/sqlite/bin:/home/villalbamedina/dolibarr-3.9.1-1/php/bin:/home/villalbamedina/dolibarr-3.9.1-1/mysql/bin:/home/villalbamedina/dolibarr-3.9.1-1/apache2/bin:/home/villalbamedina/dolibarr-3.9.1-1/common/bin:$PATH"
+BITNAMI_ROOT="/home/villalbamedina/dolibarr-3.9.1-1"
+export BITNAMI_ROOT
+
+exec /bin/bash --noprofile --norc
+                    
