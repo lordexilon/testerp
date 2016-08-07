@@ -434,7 +434,7 @@ abstract class CommonDocGenerator
 			'line_desc'=>$line->desc,
 			'line_vatrate'=>vatrate($line->tva_tx,true,$line->info_bits),
 			'line_up'=>price2num($line->subprice),
-			'line_up_iva' => price2num($line->subprice * 1.1),
+			'line_up_iva' => price2num(number_format($line->subprice * 1.1,2)),
 			'line_up_locale'=>price($line->subprice, 0, $outputlangs),
 			'line_qty'=>$line->qty,
 			'line_discount_percent'=>($line->remise_percent?$line->remise_percent.'%':''),
